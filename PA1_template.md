@@ -21,7 +21,7 @@ library(lattice)
 ```
 
 ```r
-D=read.csv('activity.csv')
+D=read.csv(unzip('activity.zip'))
 DT=data.table(D)
 ```
 
